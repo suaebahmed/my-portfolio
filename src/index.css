@@ -13,3 +13,8 @@
         @apply cursor-pointer;
     }
 }
+
+:root{
+    --white:  255,255,255;
+    --dark : 10,24,49;
+}

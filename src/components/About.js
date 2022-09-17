@@ -17,16 +17,14 @@ function About() {
             {/* sm:grid -> anything small above should be 2 coloumn */}
             <div className='max-w-[1000px] w-full px-4 grid sm:grid-cols-2 gap-8'>
                 <div className='sm:text-right text-4xl font-bold'>
-                    <p>Hi. I'm Client, nice to meet you. Please take a look around.</p>
+                    <p>Hi. I'm Suaeb, nice to meet you. Please take a look around.</p>
                 </div>
                 <div>
-                    <p>I’m a full-stack developer specializing in building (and occasionally
-                    designing) exceptional digital experiences. Currently, I’m focused on
-                    building responsive full-stack web applications.
+                    <p>I’m a full-stack developer, an aspiring SDE and problem solving experiences. Currently, I’m focused on building responsive full-stack web applications.
                     </p>
                 </div>
             </div>
-            
+
         </div>
     </div>
   )
