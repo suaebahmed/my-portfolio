@@ -4,7 +4,7 @@ import { FiExternalLink } from 'react-icons/fi';
 
 function ProjectItem({project}) {
   return (
-    <div className='py-8 hover:shadow-lg rounded-lg'>
+    <div className='w-[350px] py-8 mx-auto hover:shadow-lg rounded-lg'>
         <img className='w-[250px] mx-auto' src={project.imageUrl} alt=''></img>
         <h1 className='text-xl font-samibold mt-2'>{project.name}</h1>
         <div className='flex justify-center flex-wrap my-3 mx-10'>

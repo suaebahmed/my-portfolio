@@ -12,7 +12,7 @@ import github from '../assets/github.png';
 
 function Skills() {
   return (
-    <div name='skills' className='w-full h-screen'>
+    <div name='skills' className='w-full h-full sm:h-screen'>
         <div className='text-center'>
           <p className='text-4xl font-bold pb-4'>Experience</p>
           <p className='text-gray-400'>These are the technologies I've worked with</p>
