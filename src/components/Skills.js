@@ -1,5 +1,7 @@
 import React from 'react';
 import html from '../assets/html.png';
+import cProgramming from '../assets/c-programming.png';
+import CPlusPlus from '../assets/ISO_C++_Logo.svg.png';
 import css from '../assets/css.png';
 import javascript from '../assets/javascript.png';
 import react from '../assets/react.png';
@@ -16,6 +18,14 @@ function Skills() {
           <p className='text-gray-400'>These are the technologies I've worked with</p>
         </div>
         <div className='w-full grid grid-cols-2 sm:grid-cols-4 text-center py-8'>
+        <div className='hover:scale-110 duration-500'>
+              <img className='w-20 mx-auto' src={cProgramming} alt="html icon"></img>
+              <p className='my-4'>C Programming</p>
+            </div>
+            <div className='hover:scale-110 duration-500'>
+              <img className='w-20 mx-auto' src={CPlusPlus} alt="html icon"></img>
+              <p className='my-4'>C++</p>
+            </div>
             <div className='hover:scale-110 duration-500'>
               <img className='w-20 mx-auto' src={html} alt="html icon"></img>
               <p className='my-4'>HTML</p>

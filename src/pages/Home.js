@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import { FaFilePdf } from 'react-icons/fa';
 import About from '../components/About';
 import Navbar from '../components/Navbar';
@@ -9,6 +9,20 @@ import ProjectItem from '../components/ProjectItem';
 // import ButtonPrimary from '../components/Button-primary';
 
 function Home() {
+  const [projects, setProjects] = useState([]);
+  useEffect(()=>{
+    const getProjects = async() =>{
+      try {
+        var res = await fetch("/portfolio/projects-data.json");
+        var data = await res.json();
+        setProjects(data.projects);
+      } catch (error) {
+        console.log(error);
+      }
+    }
+    getProjects();
+  },[])
+
   return (
     <>
       <Navbar></Navbar>
@@ -36,11 +50,12 @@ function Home() {
       <div className='text-center my-4'>
         <h1 className='text-4xl font-semibold'>My works</h1>
         <p className='text-gray-400 mt-3'>These are project when I have lizure time.</p>
-        <div className='w-full grid justify-center grid-cols-1 sm:grid-cols-3 my-10 gap-4'>
-          <ProjectItem/>
-          <ProjectItem/>
-          <ProjectItem/>
-          <ProjectItem/>
+        <div className='w-full grid justify-center grid-cols-1 sm:grid-cols-3 px-8 my-10 gap-8'>
+          {projects.map(item=>{
+            return(
+              <ProjectItem project={item} key={item.id}></ProjectItem>
+            )
+          })}
         </div>
       </div>
       {/* end -- works section */}
