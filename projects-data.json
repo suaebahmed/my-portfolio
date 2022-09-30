@@ -29,8 +29,8 @@
             "name" : "My Portfolio Website",
             "technologies" : ["HTML","CSS","Tailwind CSS","Javascript","React JS"],
             "imageUrl" : "/my-portfolio/images/portfolio.png",
-            "githubUrl" : "https://github.com/suaebahmed/portfolio",
-            "liveUrl" : "https://suaebahmed.github.io/portfolio"
+            "githubUrl" : "https://github.com/suaebahmed/my-portfolio",
+            "liveUrl" : "https://suaebahmed.github.io/my-portfolio"
         }
     ]
 }
