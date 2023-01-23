@@ -7,18 +7,25 @@ function Navbar() {
     const handleClick = () => setNav(!isNav);
 
   return (
-    <div className='fixed w-full h-[65px] flex justify-between items-center bg-[#0a192f] text-gray-300 px-4'>
+    <div className='fixed w-full h-[65px] flex justify-between items-center z-10 bg-[#0a192f] text-gray-300 px-4'>
         <div>
             <img className='w-[50px]' src={logo} alt='logo'></img>
         </div>
 
         {/* manu */}
         <ul className='hidden md:flex justify-center items-center'>
-            <li>Home</li>
-            <li>Projects</li>
-            <li>Technology</li>
-            <li>Education</li>
-            <li>About</li>
+            <a href='#home'>
+                <li>Home</li>
+            </a>
+            <a href='#projects'>
+                <li>Projects</li>
+            </a>
+            <a href='#skills'>
+                <li>Technology</li>
+            </a>
+            <a href='#about'>
+                <li>About</li>
+            </a>
         </ul>
 
         {/* Hamburger */}
@@ -28,11 +35,18 @@ function Navbar() {
 
         {/* mobile manu */}
         <ul className={isNav?'hidden':'absolute top-0 left-0 w-full h-screen flex flex-col justify-center items-center bg-[#0a192f] text-gray-300'}>
-            <li className='py-2 text-xl'>Home</li>
-            <li className='py-2 text-xl'>Projects</li>
-            <li className='py-2 text-xl'>Technology</li>
-            <li className='py-2 text-xl'>Education</li>
-            <li className='py-2 text-xl'>About</li>
+            <a href='#home'>
+                <li className='py-2 text-xl'>Home</li>
+            </a>
+            <a href='#projects'>
+                <li className='py-2 text-xl'>Projects</li>
+            </a>
+            <a href='#skills'>
+                <li className='py-2 text-xl'>Technology</li>
+            </a>
+            <a href='#about'>
+                <li className='py-2 text-xl'>About</li>
+            </a>
         </ul>
         {/* You can add social icon absolute left center */}
 

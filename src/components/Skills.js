@@ -14,7 +14,7 @@ import DSA from '../assets/DSA.png';
 
 function Skills() {
   return (
-    <div name='skills' className='w-full h-full sm:h-screen'>
+    <div name='skills' className='w-full h-full sm:h-screen' id='skills'>
         <div className='text-center'>
           <p className='text-4xl font-bold pb-4'>Experience</p>
           <p className='text-gray-400'>These are the technologies I've worked with</p>
