@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/my-portfolio/static/css/main.5324e805.css",
-    "main.js": "/my-portfolio/static/js/main.b9bbcdd4.js",
+    "main.js": "/my-portfolio/static/js/main.33517ee6.js",
     "static/media/ISO_C++_Logo.svg.png": "/my-portfolio/static/media/ISO_C++_Logo.svg.3f8430b31b0960aae7e0.png",
     "static/media/react.png": "/my-portfolio/static/media/react.0cf951a69d8e58f83f9d.png",
     "static/media/node.png": "/my-portfolio/static/media/node.952a9ea986dcfa5229ad.png",
@@ -16,10 +16,10 @@
     "static/media/logo.svg": "/my-portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/my-portfolio/index.html",
     "main.5324e805.css.map": "/my-portfolio/static/css/main.5324e805.css.map",
-    "main.b9bbcdd4.js.map": "/my-portfolio/static/js/main.b9bbcdd4.js.map"
+    "main.33517ee6.js.map": "/my-portfolio/static/js/main.33517ee6.js.map"
   },
   "entrypoints": [
     "static/css/main.5324e805.css",
-    "static/js/main.b9bbcdd4.js"
+    "static/js/main.33517ee6.js"
   ]
 }
