@@ -4,7 +4,7 @@ import { FaFacebookSquare } from 'react-icons/fa';
 
 function Footer() {
   return (
-    <div className=''>
+    <div className='mt-24'>
         <div className='text-center text-[rgb(10,24,49)] text-2xl font-bold'>Suaeb Ahmed</div>
         <div className='flex justify-center space-x-5 m-4 text-[rgb(10,24,49)]'>
             <a href="https://www.linkedin.com/in/suaeb-ahmed/" target="_blank" rel="noopener noreferrer">

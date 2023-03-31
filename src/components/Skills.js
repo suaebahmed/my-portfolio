@@ -16,7 +16,7 @@ function Skills() {
   return (
     <div name='skills' className='w-full h-full sm:h-screen' id='skills'>
         <div className='text-center'>
-          <p className='text-4xl font-bold pb-4'>Experience</p>
+          <p className='text-4xl font-bold pb-4'>Experience with</p>
           <p className='text-gray-400'>These are the technologies I've worked with</p>
         </div>
         <div className='w-full grid grid-cols-2 sm:grid-cols-4 text-center py-8'>

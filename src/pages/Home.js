@@ -26,6 +26,7 @@ function Home() {
   return (
     <>
       <Navbar></Navbar>
+      <div className='max-w-screen-lg mx-auto'>
       {/* container or hero section */}
       <div className='w-full h-screen' id='home'>
         <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full'>
@@ -63,6 +64,7 @@ function Home() {
       {/* end -- works section */}
       {/* <Contract></Contract> */}
       <Footer></Footer>
+    </div>
     </>
   )
 }
