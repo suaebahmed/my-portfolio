@@ -50,10 +50,10 @@ function Home() {
       <About></About>
       <Skills></Skills>
       {/* --- work section --- */}
-      <div className='text-center my-4' id='projects'>
+      <div className='text-center pt-[100px]' id='projects'>
         <h1 className='text-4xl font-semibold'>My works</h1>
         <p className='text-gray-400 mt-3'>These project are made when I have spare time.</p>
-        <div className='w-full grid justify-center grid-cols-1 sm:grid-cols-3 my-10 gap-8'>
+        <div className='w-full grid justify-center grid-cols-1 sm:grid-cols-3 my-10 gap-4'>
           {projects.map(item=>{
             return(
               <ProjectItem project={item} key={item.id}></ProjectItem>
