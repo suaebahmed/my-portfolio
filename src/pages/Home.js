@@ -26,7 +26,7 @@ function Home() {
   return (
     <>
       <Navbar></Navbar>
-      <div className="max-w-screen-lg mx-auto">
+      <div className="max-w-screen-lg mx-auto pt-8">
         {/* container or hero section */}
         <div className="w-full h-screen" id="home">
           <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full">
@@ -59,7 +59,7 @@ function Home() {
             </p>
             <div>
               <a
-                href="https://drive.google.com/file/d/1JdB36R4yqGid3Md2pYyYA7SgD16uCF6-/view?usp=sharing"
+                href="https://drive.google.com/file/d/1lviNVFrn9nRg8GkDaFOL0OT_g2Bt3XTS/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
               >
