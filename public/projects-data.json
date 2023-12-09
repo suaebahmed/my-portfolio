@@ -10,14 +10,23 @@
         },
         {
             "id" : 102,
-            "name" : "E-Commerce Web Application",
+            "name" : "Weather Application",
             "technologies" : ["HTML","CSS","Tailwind CSS","Javascript","React JS"],
-            "imageUrl" : "/my-portfolio/images/e-commerce.png",
-            "githubUrl" : "https://github.com/suaebahmed/ecommerce-projects",
-            "liveUrl" : "https://suaebahmed.github.io/ecommerce-projects"
+            "imageUrl" : "/my-portfolio/images/weather-app.png",
+            "githubUrl" : "https://github.com/suaebahmed/weather-web-app",
+            "liveUrl" : "https://suaebahmed.github.io/weather-web-app/"
         },
         {
-            "id" : 103,
+            "id" : 106,
+            "name" : "Web API using ASP.NET Core",
+            "technologies" : ["ASP.NET Core","EF Core","SQL Server","Swagger"],
+            "imageUrl" : "/my-portfolio/images/webapi-asp.net-core.png",
+            "githubUrl" : "https://github.com/suaebahmed/WebAPI-Asp.Net-Core",
+            "liveUrl" : null
+        },
+
+        {
+            "id" : 104,
             "name" : "Random Quote Machine",
             "technologies" : ["HTML","CSS","Javascript","React JS"],
             "imageUrl" : "/my-portfolio/images/quotes.png",
@@ -25,12 +34,20 @@
             "liveUrl" : "https://suaebahmed.github.io/random-quote-machine/"
         },
         {
-            "id" : 104,
+            "id" : 105,
             "name" : "My Portfolio Website",
             "technologies" : ["HTML","CSS","Tailwind CSS","Javascript","React JS"],
             "imageUrl" : "/my-portfolio/images/portfolio.png",
             "githubUrl" : "https://github.com/suaebahmed/my-portfolio",
             "liveUrl" : "https://suaebahmed.github.io/my-portfolio"
+        },
+        {
+            "id" : 103,
+            "name" : "E-Commerce Web Application",
+            "technologies" : ["HTML","CSS","Tailwind CSS","Javascript","React JS"],
+            "imageUrl" : "/my-portfolio/images/e-commerce.png",
+            "githubUrl" : "https://github.com/suaebahmed/ecommerce-projects",
+            "liveUrl" : "https://suaebahmed.github.io/ecommerce-projects"
         }
     ]
 }
